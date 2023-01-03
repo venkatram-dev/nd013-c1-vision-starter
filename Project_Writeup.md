@@ -102,7 +102,7 @@ Bounding boxes are color coded with vehicles in red, pedestrians in blue, cyclis
 
 ##### On average there are  18 bounding boxes per image
 
-
+![This is an image](images/Screen%20Shot%202023-01-03%20at%209.49.21%20AM.png)
 
 ![This is an image](images/Screen%20Shot%202023-01-03%20at%209.49.16%20AM.png)
 
