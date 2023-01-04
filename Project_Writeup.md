@@ -197,6 +197,19 @@ Using the default config file, the performance was not that great as we can see 
 
 ![This is an image](images/reference_eval_loss_image2.png)
 
+### overfitting
+
+As we can see from the tensorboard charts , the model is overfitting. It tries to learn patterns from the dataset and tries to overfit. If we can provide more varied images with different patterns, the model will perform better. 
+Image augmentation is a way to provide more varied images during the training
+
+### OOM Issues
+
+While running the jobs in the workspace, Sometimes during the training, if we have many steps we get out of memory issues.
+
+![This is an image](images/oom_error.png)
+
+One option to deal with this is reduce number of steps, but the model might overfit more in those cases
+
 # Improve on the reference: 
 
 ### Explore augmentations.ipynb - contains different data augmentations combinations which are best for our dataset
